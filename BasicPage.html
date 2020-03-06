@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>House Rental</title>
+    
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/BasicPage.css" rel="stylesheet">
+
+    <link href="fonts/fontawesome-free-5.7.0-web/css/all.min.css" rel="stylesheet">
+    <link href="fonts/fontawesome-free-5.7.0-web/js/all.js">
+    <link href="fonts/fontawesome-free-5.7.0-web/webfonts/">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+              <script src="js/html5shiv.min.js"></script>
+              <script src="js/respond.min.js"></script>
+            <![endif]-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+
+<body>
+
+    <!--  Facebook , Twitter , Youtupe , etc Header connection -->
+    <section class="nav1">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container" id="container">
+                <div class="row justify-content-start">
+                    <div class="collapse navbar-collapse">
+                        <div class="col-sm-12 col-6">
+                            <ul class="nav navbar-nav">
+                                <h6>Call Us Now 0102-280-3553</h6>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 col-6">
+                            <ul class="nav navbar-nav ml-auto text-uppercase" id="content">
+                                <li class="face"><a href="https://www.facebook.com/"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li class="twitter"><a href="https://www.tumblr.com/"><i class="fab fa-tumblr"></i></a>
+                                </li>
+                                <li class="youtube"><a href="https://www.youtube.com/"><i
+                                            class="fab fa-youtube"></i></a></li>
+                                <li class="twitter"><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="rss"><a href="https://rss.com/"><i class="fas fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!--   Basic Navbar Header of Page -->
+    <section class="nav2">
+        <nav class="navbar header navbar-expand-lg">
+            <div class="container text-uppercase p-1">
+                <ul class="nav navbar-nav">
+                    <h4>House Rented</h4>
+                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa-x fa fa-list" aria-hidden="true"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text-uppercase">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#servicediv">About </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                id="sevicenavbarDropdown">Services</a>
+                            <div class="dropdown-menu service-menu">
+                                <a class="dropdown-item" href="#">General</a>
+                                <a class="dropdown-item" href="#">Summers</a>
+                                <a class="dropdown-item" href="#">Students</a>
+                                <a class="dropdown-item" href="#">Go and Back</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="profilenavbarDropdown"
+                                data-toggle="dropdown">Profiles </a>
+                            <div class="dropdown-menu profile-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">User</a>
+                                <a class="dropdown-item" href="#">Flat</a>
+                                <a class="dropdown-item" href="#">Posts</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#contactid">Contacts <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                data-toggle="dropdown">Login </a>
+                            <div class="dropdown-menu Login" aria-labelledby="navbarDropdown">
+                                <form class="px-4 py-3">
+                                    <div class="form-group">
+                                        <label for="exampleDropdownFormEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                            placeholder="email@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleDropdownFormPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleDropdownFormPassword1"
+                                            placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                            <label class="form-check-label" for="dropdownCheck">
+                                                Remember me
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary"><a class="signup" href="#">Login in</a></button>
+                                    <button type="submit" class="btn btn-primary"><a class="signup" href="signup.html">Sign UP</a></button>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!--   Slider of Page  -->
+    <section class="slider">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/green-plants-on-brown-concrete-building-2067570.jpg" class="d-block w-100"
+                        alt="...">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row">
+                                <div class="text slidercontent1 col-sm-12">
+                                    <h1>Real Estate Services <br> At Their Peak</h1>
+                                    <input type="text" class="form-control" placeholder="Location" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                    <select class="custom-select">
+                                        <option selected>N0.of Bedrooms</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                        <option value="4">Complete Flat</option>
+                                    </select>
+                                    <button type="button" class="btn btn-primary">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cozy-modern-bedroom-3144580.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <div class="text slidercontent2">
+                            <h1>We are the leaders <br> on the rental market</h1>
+                            <input type="text" class="form-control" placeholder="Location" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                            <select class="custom-select">
+                                <option selected>N0.of Bedrooms</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                                <option value="4">Complete Flat</option>
+                            </select>
+                            <button type="button" class="btn btn-primary">Search</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/stairs-home-loft-lifestyle-2459-copy.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption">
+                        <div class="text slidercontent3">
+                            <h1>Real Estate Is Our <br> Life</h1>
+                            <input type="text" class="form-control" placeholder="Location" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                            <select class="custom-select">
+                                <option selected>N0.of Bedrooms</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                                <option value="4">Complete Flat</option>
+                            </select>
+                            <button type="button" class="btn btn-primary">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+    </section><br><br><br>
+
+    <!--   offer section -->
+    <section class="serviceffers" id="servicediv">
+        <div class="container headings text-center">
+            <h1 class="text-center font-weight-bold">What Do We Offer</h1>
+            <p>Renting out a house can mean income, but you'll definitely work for it.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-10 offset-1 offset-lg-0">
+                    <div class="names my-3">
+                        <h1>General</h1>
+                        <div class="progress w-75">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                style="width: 80%;">
+                                80%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="names my-3">
+                        <h1>Summers</h1>
+                        <div class="progress w-75">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                style="width: 75%;">
+                                75%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="names my-3">
+                        <h1>Students</h1>
+                        <div class="progress w-75">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%;">
+                                100%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="names my-3">
+                        <h1>Go and Back</h1>
+                        <div class="progress w-75">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                style="width: 90%;">
+                                90%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-12 servicediv"><br>
+                    <div class="row">
+                        <div class="col-lg-2 col-2 service-icons">
+                            <i class="fa-2x fa fa-desktop" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-10 col-10">
+                            <h2>Desktop</h2>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;
+                                We can offer this page in order to know enough information about the rent of apartments,
+                                It provides you with all the services that will help you to find the apartment you need.
+                            </p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-lg-2 col-2 service-icons">
+                            <i class="fa-2x fa fa-wifi" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-10 col-10">
+                            <h2>Digital Marketing</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-lg-2 col-2 service-icons">
+                            <i class="fa-2x fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-10 col-10">
+                            <h2>Communications</h2>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;
+                                You can contact us via Facebook, Twitter, Instagram, Tumblr, Rss or Page number.</p>
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--   Center of Page  -->
+    <section class="header-extradiv">
+        <div class="container">
+            <div class="row">
+                <div class="extra-div col-lg-4 col-md-4 col-12">
+                    <a href="#" id="text-center">
+                        <i class="fa-3x fa fa-desktop" aria-hidden="true"></i>
+                    </a>
+                    <h2>Hello Desktop</h2>
+                    <p>lkjmlkjmklnmikjnknhj,kfyhdxtckvf</p>
+                </div>
+                <div class="extra-div col-lg-4 col-md-4 col-12">
+                    <a href="#">
+                        <i class="fa-3x fa fa-trophy" aria-hidden="true"></i>
+                    </a>
+                    <h2>Hello Desktop</h2>
+                    <p>lkjmlkjmklnmikjnknhj,kfyhdxtckvf</p>
+                </div>
+                <div class="extra-div col-lg-4 col-md-4 col-12">
+                    <a href="#">
+                        <i class="fa-3x fa fa-magic" aria-hidden="true"></i>
+                    </a>
+                    <h2>Hello Desktop</h2>
+                    <p>lkjmlkjmklnmikjnknhj,kfyhdxtckvf</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--   project done start -->
+    <section class="project-work">
+        <div class="container headings text-center">
+            <p class="text-center font-weight-bold">More Than 2,000 Booked Happens</p>
+        </div>
+        <div class="container d-flex justify-content-around align-items-center text-center">
+            <div>
+                <h1 class="count">1500</h1>
+                <p>Go and Back</p>
+            </div>
+            <div>
+                <h1 class="count">2500</h1>
+                <p>Students</p>
+            </div>
+            <div>
+                <h1 class="count">700</h1>
+                <p>General</p>
+            </div>
+            <div>
+                <h1 class="count">500</h1>
+                <p>Summers</p>
+            </div>
+        </div>
+    </section>
+
+    <!--  project Timing  -->
+    <section class="Timing">
+        <div id="del-countdown">
+            <h1>Timing</h1>
+            <div id="clock"></div>
+            <div id="units">
+                <span>Days</span>
+                <span>Hours</span>
+                <span>Minutes</span>
+                <span>Seconds</span>
+            </div>
+        </div>
+    </section>
+
+    <!--   Our Pricing  -->
+    <section class="pricing" id="pricingdiv">
+        <div class="container headings text-center">
+            <h1 class="text-center font-weight-bold text-white">Our Best Pricing</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="card text-center">
+                        <div class="card-header">BASIC</div>
+                        <div class="card-body">
+                            <li>$ <span class="money">20</span>/ websites</li>
+                            <li>Responsive Websites</li>
+                            <li>Domain Name Free</li>
+                            <li>Mobile Friendly</li>
+                            <li>Customer Support 24/7</li>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 card-second">
+                    <div class="card text-center">
+                        <div class="card-header">STABDARD</div>
+                        <div class="card-body">
+                            <li>$ <span class="money">40</span>/ websites</li>
+                            <li>Responsive Websites</li>
+                            <li>Domain Name Free</li>
+                            <li>Mobile Friendly</li>
+                            <li>Customer Support 24/7</li>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card text-center">
+                        <div class="card-header">UNLIMITED</div>
+                        <div class="card-body">
+                            <li>$ <span class="money">60</span>/ websites</li>
+                            <li>Responsive Websites</li>
+                            <li>Domain Name Free</li>
+                            <li>Mobile Friendly</li>
+                            <li>Customer Support 24/7</li>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  3 slider center page  -->
+    <section class="happyclients">
+        <div class="container headings text-center">
+            <h1 class="text-center font-weight-bold">OUR APARTMENTS</h1>
+        </div><br><br>
+        <div id="demo" class="carousel slide" data-ride="carousel" data-interval="1500">
+            <!-- The slideshow -->
+            <div class="carousel-inner container">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="box">
+                                <a href="#"><img
+                                        src="images/photo-of-green-leaf-potted-plants-on-window-and-stand-930004.jpg"
+                                        class="img-fluid img-thumbnail"></a>
+                                <p class="m-4"></p>
+                                <h1>Flat 1</h1>
+                                <h2>Web developer</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="box">
+                                <a href="#"><img
+                                        src="images/white-and-black-laptop-computer-on-brown-wooden-stool-near-698170.jpg"
+                                        class="img-fluid img-thumbnail"></a>
+                                <p class="m-4"></p>
+                                <h1>Flat 2</h1>
+                                <h2>Web developer</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="box">
+                                <a href="#"><img src="images/round-brown-wooden-stool-near-brown-sofa-892618.jpg"
+                                        class="img-fluid img-thumbnail"></a>
+                                <p class="m-4"></p>
+                                <h1>Flat 3</h1>
+                                <h2>Web developer</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="box">
+                                <a href="#"><img src="images/bed-bedroom-blue-brown-172872.jpg"
+                                        class="img-fluid img-thumbnail"></a>
+                                <p class="m-4"></p>
+                                <h1>Flat 4</h1>
+                                <h2>Web developer</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="box">
+                                <a href="#"><img src="images/white-sectional-sofa-2881748-copy.jpg"
+                                        class="img-fluid img-thumbnail"></a>
+                                <p class="m-4"></p>
+                                <h1>Flat 5</h1>
+                                <h2>Web developer</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="box">
+                                <a href="#"><img src="images/apartment-bed-bedroom-chair-271624-copy.jpg"
+                                        class="img-fluid img-thumbnail"></a>
+                                <p class="m-4"></p>
+                                <h1>Flat 6</h1>
+                                <h2>Web developer</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="box">
+                                <a href="#"><img
+                                        src="images/gray-and-white-chevron-printed-bed-with-white-painted-wall-2806351.jpg"
+                                        class="img-fluid img-thumbnail"></a>
+                                <p class="m-4"></p>
+                                <h1>Flat 7</h1>
+                                <h2>Web developer</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="box">
+                                <a href="#"><img src="images/apartment-architecture-balcony-building-129494-ccopy.jpg"
+                                        class="img-fluid img-thumbnail"></a>
+                                <p class="m-4"></p>
+                                <h1>Flat 8</h1>
+                                <h2>Web developer</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="box">
+                                <a href="#"><img src="images/bedroom-3637740.jpg" class="img-fluid img-thumbnail"></a>
+                                <p class="m-4"></p>
+                                <h1>Flat 9</h1>
+                                <h2>Web developer</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--   Contact us-->
+    <section class="contactus" id="contactid">
+        <div class="container headings text-center">
+            <h1 class="text-center font-weight-bold">Contact Us</h1>
+            <p class="text-capitalize pt-1">We ُre Here To Help And Answer Any Question You Might Have. We Look Forward
+                To Hearing From You 😉 </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter Your Name" id="username" required
+                                autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Enter Email" id="email" required
+                                autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="Enter Mobile Number" id="mobile"
+                                required autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="4" placeholder="Enter Your Message"
+                                id="comment"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center form-button">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    newsLetter   -->
+    <section class="newsletter" id="newsletterid">
+        <div class="container headings text-center">
+            <h2 class="text-center font-weight-bold">SUBSCRIBE TO OUR NEWSLETTER</h2>
+        </div><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-12">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control news-input" placeholder="Your Email">
+                        <div class="input-group-append">
+                            <button class="input-group-text">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    site map   -->
+    <section class="pagemap">
+        <h3>My Google Maps</h3>
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d213831.7976754535!2d31.250000000000004!3d30.05!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1583415746030!5m2!1sen!2sus"
+                width="450" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </section>
+
+    <!--    Footer   -->
+    <footer class="footersection" id="footerdiv">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 footer-div">
+                    <div>
+                        <h3>ABOUT THAPATECHNICAL</h3>
+                        <p>ijzikjzsijzsiojizjcklksjzis</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+                    <div>
+                        <h3>NAVIGATION LINKS</h3>
+                        <a href="#">Home</a><br>
+                        <a href="#servicediv">About</a><br>
+                        <a href="#sevicenavbarDropdown">Services</a><br>
+                        <a href="#profilenavbarDropdown">Profiles</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 footer-div">
+                    <div>
+                        <h3>NEWSLETTER</h3>
+                        <p>JMZLXJMZL/S'DCJMLASKCMZSKL</p>
+                        <div class="container newsletter-main ">
+                            <div class="row">
+                                <div class="col-lg-12 col-12">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control news-input" placeholder="Your Email">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">Subscribe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 text-center">
+                <p>Copyright @2020 All rights reserved | This templete is made with love by ThapaTechnical</p>
+            </div>
+
+            <div class="scrolltop float-right">
+                <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/vnu-jar.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/BasicPage.js"></script>
+</body>
+
+</html>
